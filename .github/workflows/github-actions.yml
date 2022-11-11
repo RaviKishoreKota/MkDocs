@@ -14,4 +14,4 @@ jobs:
       - run: uname -a
       - run: pwd
       - run: sudo apt install nginx -y
-      - run: sudo docker install
+      - run: docker images
